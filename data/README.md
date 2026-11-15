@@ -11,4 +11,4 @@ A free Kaggle account is needed to download. Use the website's **Download** butt
 
 Please credit the dataset authors if you reuse the data, and check the Kaggle pages for current terms.
 
-The original university notebooks fetched the files from private Dropbox copies. Those links have been removed from this repository.
+The original notebooks fetched the files from private Dropbox copies. Those links have been removed from this repository.

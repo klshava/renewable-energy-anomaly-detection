@@ -1,6 +1,6 @@
 # Technical review
 
-Audit of the project as submitted, plus a record of what was changed and re-run during portfolio preparation (November 2026). Findings come from reading the notebooks' code and saved outputs and from re-running them. Statements taken only from the report are labelled.
+Audit of the project as originally written, plus a record of what was changed and re-run during portfolio preparation (November 2026). Findings come from reading the notebooks' code and saved outputs and from re-running them. Statements taken only from the report are labelled.
 
 ## 1. What was implemented (confirmed from code)
 
@@ -40,13 +40,13 @@ Audit of the project as submitted, plus a record of what was changed and re-run 
 
 ## 4. Unresolved
 
-- The report header reads "PRIME AI paper". Its origin (course template or venue) is unknown, and it should not be described as published.
+- The report header reads "PRIME AI paper". Its origin (template or venue) is unknown, and it should not be described as published.
 - Whether flagged points correspond to real faults, maintenance or sensor issues is unknown.
 - The licensing terms of the Kaggle datasets are unclear (wind: "Unknown"; solar: "Data files © Original Authors"), so the data is not redistributed.
 
 ## 5. What was changed during portfolio preparation
 
-**Editorial (no effect on results):** removed private Dropbox download cells and share tokens (including saved wget outputs); changed data paths to `../data/...`; added a notes cell at the top of each original notebook; removed the author's student email from the report PDF (public copy only, via content-stream edit, text and rendering verified); set PDF title and author metadata; added README, licence, data notes, requirements.
+**Editorial (no effect on results):** removed private Dropbox download cells and share tokens (including saved wget outputs); changed data paths to `../data/...`; added a notes cell at the top of each original notebook; removed the author's email address from the report PDF (public copy only, via content-stream edit, text and rendering verified); set PDF title and author metadata; added README, licence, data notes, requirements.
 
 **Substantive, separate file:** `notebooks/wind_scada_revised.ipynb`: target removed from features, chronological 80/20 split, scaler fitted on training rows only, unscaled target, Random Forest seed 42, baseline of the manufacturer power curve. The original wind notebook is unchanged apart from the editorial edits above.
 

@@ -1,12 +1,12 @@
 # Anomaly Detection for Solar and Wind Turbine Power Generation
 
-A university machine-learning project that applies unsupervised anomaly detection to public wind-turbine SCADA data and public solar-plant data, using Python and scikit-learn.
+A machine-learning project that applies unsupervised anomaly detection to public wind-turbine SCADA data and public solar-plant data, using Python and scikit-learn.
 
-> **Status:** academic coursework (Deakin University), not professional or production ML work. It has not been peer reviewed or published. Some methodological problems in the original submission are documented below and in [docs/technical-review.md](docs/technical-review.md).
+> **Status:** a learning project, not production ML work. It has not been peer reviewed or published. Some methodological problems in the original analysis are documented below and in [docs/technical-review.md](docs/technical-review.md).
 
-## Author and context
+## Author
 
-Kudzai Shava, Master of Data Science, School of Information Technology, Deakin University. Sole author. The original report and notebooks are included as submitted, with only the cleanup edits listed under [Original work versus later changes](#original-work-versus-later-changes).
+Kudzai Shava, sole author. The original report and notebooks are included with only cleanup edits (private links removed, paths made relative, a notes cell added). The corrected wind regression is in a separate notebook, `wind_scada_revised.ipynb`, and is labelled as a later revision.
 
 ## Question and intended use
 
@@ -99,12 +99,6 @@ docs/technical-review.md  implementation audit and change log
 3. Run each notebook from inside `notebooks/` (paths are relative to that folder), e.g. `jupyter nbconvert --to notebook --execute wind_scada_revised.ipynb`.
 
 All three notebooks were executed end to end without errors in November 2026; environment details are in the technical review. The saved outputs in the original two notebooks come from the original Colab run and were left as they were.
-
-## Original work versus later changes
-
-- **Original (university submission; notebook logs show it was run in May 2024):** the report, and the logic and outputs of `wind_scada.ipynb` and `Solar_Power_Generation_Data.ipynb`.
-- **Cleanup (2026, no logic changes):** removed private download links, made data paths relative, added a notes cell at the top of each notebook, redacted the author's email from the report PDF, added this documentation.
-- **Portfolio-review revision (2026):** `wind_scada_revised.ipynb`. Clearly separate from the original results.
 
 ## Possible future improvements (not implemented)
 
