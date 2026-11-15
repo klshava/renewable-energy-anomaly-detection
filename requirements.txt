@@ -1,0 +1,10 @@
+# Unpinned list of packages the notebooks import (plus tools to run them).
+# The versions actually tested are recorded in docs/technical-review.md.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tqdm
+ipykernel
+nbconvert

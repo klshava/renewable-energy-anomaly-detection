@@ -1,0 +1,10 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Datasets are not redistributed (see data/README.md)
+data/*
+!data/README.md
